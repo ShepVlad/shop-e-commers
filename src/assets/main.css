@@ -1,0 +1,10 @@
+@import './base.css';
+
+@import "tailwindcss";
+
+@theme static {
+    --color-primary: var(--color-blue-700);
+    --color-secondary: var(--color-green-500);
+    --color-danger: var(--color-red-600);
+    --color-ghost: var(--color-gray-100);
+}
